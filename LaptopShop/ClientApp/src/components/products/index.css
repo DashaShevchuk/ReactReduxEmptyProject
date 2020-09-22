@@ -1,0 +1,28 @@
+.products_table td a {
+  font-weight: bold;
+}
+
+.products_table td a.edit {
+  color: blue;
+  cursor: pointer;
+}
+
+.products_table td a.edit:hover {
+  color: blue;
+}
+
+.products_table td a.delete {
+  color: #F44336;
+  cursor: pointer;
+}
+
+.products_table td a.delete:hover {
+  color: #F44336;
+}
+
+.products_table td:last-child svg {
+  opacity: 0.9;
+  font-size: 22px;
+  margin: 0 5px;
+}
+/*# sourceMappingURL=index.css.map */

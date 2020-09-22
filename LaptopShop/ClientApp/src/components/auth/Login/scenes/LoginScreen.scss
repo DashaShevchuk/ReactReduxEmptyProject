@@ -1,0 +1,10 @@
+.loginform {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 24px;
+    width:304px;
+
+    @media screen and (max-width:567px) {
+        width:100% !important;
+    }
+}

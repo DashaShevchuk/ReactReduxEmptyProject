@@ -1,0 +1,15 @@
+.cursor-pointer{
+  cursor: pointer;
+}
+.recaptchaGroup {
+  margin-bottom: 24px;
+  .g-recaptcha { 
+    @media screen and (max-width: 567) {
+        padding: 0px !important;
+
+        transform:scale(0.85); 
+        -webkit-transform:scale(0.85); 
+    }
+
+  }
+}
